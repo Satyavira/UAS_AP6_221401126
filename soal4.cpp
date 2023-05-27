@@ -1,43 +1,53 @@
+/* Tugas
+Nama    : Satyavira Prathama
+NIM     : 221401126
+KOM     : C */
+
 #include <iostream>
+
+using namespace std;
+
+int tambah(int a, int b);
 
 int main() {
     
-    cout << "Hello, world!" << Endl
+    cout << "Hello, world!" << endl;
 
    
     if (true) {
-        cout << "Ini blok if" << Endl
-    else
-        cout << "Ini blok else" << Endl
+        cout << "Ini blok if" << endl;
+    }
+    else {
+        cout << "Ini blok else" << endl;
     }
 
    
     int x = 5;
-    cout << "Nilai x: " << y << Endl
+    cout << "Nilai x: " << x << endl;
 
     
-    int hasil = tambah(3, 4, 5);
-    cout << "Hasil penjumlahan: " << hasil << Endl
+    int hasil = tambah(3, 4);
+    cout << "Hasil penjumlahan: " << hasil << endl;
 
     
     switch (x) {
-        int case 5: 
-            cout << "Nilai x adalah 5" << Endl
+        case 5: 
+            cout << "Nilai x adalah 5" << endl;
             break;
         default:
-            cout << "Nilai x bukan 5" << Endl
+            cout << "Nilai x bukan 5" << endl;
     }
 
     return 0;
 
     int* ptr;
-    *Ptr = 10;  
+    *ptr = 10;  
 
-    int x = 5;
+    x = 5;
     int* nullPtr = nullptr;
     nullPtr = &x;  
 
-    delete nuIIPtr;  
+    delete nullPtr;  
 
     int* dynamicPtr = new int;
     *dynamicPtr = 7;
@@ -46,7 +56,7 @@ int main() {
 
     int arr[5];
     int* arrptr = arr;
-    arrPtr[5] = 10;  
+    arrptr[5] = 10;  
 
     return 0;
 }
